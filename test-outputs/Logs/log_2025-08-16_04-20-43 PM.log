@@ -1,0 +1,34 @@
+[INFO] 16-08-2025 16:20:43 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 16-08-2025 16:20:47 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:20:49 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:20:49 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:20:49 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 16:20:50 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:33)] - Number of all products 6
+[INFO] 16-08-2025 16:20:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 16:20:50 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 16:20:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 16:20:53 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:20:54 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:20:54 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:20:54 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 16:20:55 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 1
+[INFO] 16-08-2025 16:20:55 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 2
+[INFO] 16-08-2025 16:20:55 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 6
+[INFO] 16-08-2025 16:20:55 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 16:20:55 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 16:20:56 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 16:20:59 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:21:00 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:21:00 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:21:00 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRedirectiontoCartPage started
+[INFO] 16-08-2025 16:21:01 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 4
+[INFO] 16-08-2025 16:21:01 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 5
+[INFO] 16-08-2025 16:21:01 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:65)] - Random number: 6
+[ERROR] 16-08-2025 16:21:07 [main] [Pages.P02_landingPage.verifyAddtoCartPage(P02_landingPage.java:83)] - Expected condition failed: waiting for url to be "https://www.saucedemo.com/cart.html". Current url: "https://www.saucedemo.com/inventory.html" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59306/devtoo..., se:cdpVersion: 139.0.7258.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a24afd8e72bac145de259611d4f9100b
+[INFO] 16-08-2025 16:21:07 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:25)] - Test Case assertRedirectiontoCartPage failed
+[INFO] 16-08-2025 16:21:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

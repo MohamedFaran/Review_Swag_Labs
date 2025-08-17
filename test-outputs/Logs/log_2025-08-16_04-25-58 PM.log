@@ -1,0 +1,28 @@
+[INFO] 16-08-2025 16:25:59 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 16-08-2025 16:26:02 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:26:04 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:26:04 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:26:04 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 16:26:05 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:30)] - Number of all products 6
+[INFO] 16-08-2025 16:26:05 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 16:26:05 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 16:26:06 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 16:26:08 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:26:08 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:26:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:26:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 16:26:10 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 16-08-2025 16:26:10 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 3
+[INFO] 16-08-2025 16:26:10 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 16-08-2025 16:26:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 16:26:11 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 16:26:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 16:26:13 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 16:26:14 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 16:26:14 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 16:26:14 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRedirectiontoCartPage started
+[INFO] 16-08-2025 16:26:15 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 1
+[INFO] 16-08-2025 16:26:15 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 16-08-2025 16:26:15 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 6
+[INFO] 16-08-2025 16:26:15 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:25)] - Test Case assertRedirectiontoCartPage failed
+[INFO] 16-08-2025 16:26:16 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

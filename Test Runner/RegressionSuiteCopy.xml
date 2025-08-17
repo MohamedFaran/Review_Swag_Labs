@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Regression Suite">
+    <listeners>
+        <listener class-name="Listeners.ITestResultListenerClass"/>
+        <listener class-name="Listeners.IInvokedMethodListenerClass"/>
+    </listeners>
+    <test name="Regression Test">
+        <classes>
+            <class name="Tests.TC01_loginTest"/>
+            <class name="Tests.TC02_LandingTest"/>
+            <class name="Tests.TC03_CartTest"/>
+            <class name="Tests.TC04_CheckoutTest"/>
+            <class name="Tests.TC05_OverviewTest"/>
+            <class name="Tests.TC06_FinishingOrderTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+        <!--///////////////////خاص قبيلة /////////////////////////////Qabila-->
+        <!--<suite name="Smoke Suit" parallel="tests" thread-count="4">-->
+        <!--<test name="Smoke Test on chrome">-->
+        <!--    <parameter name="browser" value="chrome"></parameter>-->
+
+        <!--    <classes>-->
+
+        <!--        <class name="Tests.TC02_HomeTest">-->
+
+        <!--        </class>-->
+        <!--    </classes>-->
+        <!--</test>-->
+        <!--<test name="Smoke Test on Edge">-->
+        <!--    <parameter name="browser" value="edge"></parameter>-->
+
+        <!--    <classes>-->
+
+        <!--        <class name="Tests.TC02_HomeTest">-->
+
+        <!--        </class>-->
+        <!--    </classes>-->
+        <!--</test>-->
+
+        <!--</suite>-->

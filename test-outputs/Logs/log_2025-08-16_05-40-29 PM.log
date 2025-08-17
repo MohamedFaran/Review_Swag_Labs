@@ -1,0 +1,88 @@
+[INFO] 16-08-2025 17:40:29 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 16-08-2025 17:40:34 [main] [Tests.TC01_loginTest.loginUsingCookies(TC01_loginTest.java:29)] - driver is setup
+[INFO] 16-08-2025 17:40:35 [main] [Tests.TC01_loginTest.loginUsingCookies(TC01_loginTest.java:31)] - redirected to the login page
+[INFO] 16-08-2025 17:40:36 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case loginUsingCookies passed
+[INFO] 16-08-2025 17:40:39 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:44)] - driver is setup
+[INFO] 16-08-2025 17:40:39 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:46)] - redirected to the login page
+[INFO] 16-08-2025 17:40:41 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:40:41 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTC started
+[INFO] 16-08-2025 17:40:51 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:25)] - Test Case validLoginTC failed
+[INFO] 16-08-2025 17:40:52 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:40:55 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:44)] - driver is setup
+[INFO] 16-08-2025 17:40:57 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:46)] - redirected to the login page
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTCUsingCookies started
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case validLoginTCUsingCookies passed
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case validLoginTCUsingCookies successed
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:40:58 [main] [Tests.TC01_loginTest.clearCookies(TC01_loginTest.java:88)] - Cookies cleared after test execution
+[INFO] 16-08-2025 17:40:58 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case clearCookies passed
+[INFO] 16-08-2025 17:41:00 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 17:41:02 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 17:41:02 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:02 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 17:41:03 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:30)] - Number of all products 6
+[INFO] 16-08-2025 17:41:03 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 17:41:03 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 17:41:03 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:06 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 17:41:07 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 17:41:07 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:07 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 17:41:08 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 1
+[INFO] 16-08-2025 17:41:08 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 16-08-2025 17:41:08 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 16-08-2025 17:41:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 17:41:08 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 17:41:09 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:11 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:30)] - driver is setup
+[INFO] 16-08-2025 17:41:13 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:32)] - redirected to the login page
+[INFO] 16-08-2025 17:41:13 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:13 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRedirectiontoCartPage started
+[INFO] 16-08-2025 17:41:13 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 1
+[INFO] 16-08-2025 17:41:14 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 4
+[INFO] 16-08-2025 17:41:14 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 16-08-2025 17:41:14 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRedirectiontoCartPage passed
+[INFO] 16-08-2025 17:41:14 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRedirectiontoCartPage successed
+[INFO] 16-08-2025 17:41:14 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:17 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:28)] - driver is setup
+[INFO] 16-08-2025 17:41:19 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - redirected to the login page
+[INFO] 16-08-2025 17:41:19 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:19 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertSelectedProductsWithPricesonCartPage started
+[INFO] 16-08-2025 17:41:19 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 1
+[INFO] 16-08-2025 17:41:20 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 3
+[INFO] 16-08-2025 17:41:20 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 16-08-2025 17:41:41 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertSelectedProductsWithPricesonCartPage passed
+[INFO] 16-08-2025 17:41:41 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertSelectedProductsWithPricesonCartPage successed
+[INFO] 16-08-2025 17:41:41 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:41 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:36)] - null
+[INFO] 16-08-2025 17:41:43 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:38)] - Edge driver is opened
+[INFO] 16-08-2025 17:41:45 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:40)] - Page is redirected to the URL
+[INFO] 16-08-2025 17:41:45 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:45 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepOneTC started
+[INFO] 16-08-2025 17:41:46 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 4
+[INFO] 16-08-2025 17:41:46 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 16-08-2025 17:41:47 [main] [Tests.TC04_CheckoutTest.checkoutStepOneTC(TC04_CheckoutTest.java:60)] - fTest-2025-08-16-05-40-30PM lTest-2025-08-16-05-40-30PM 22053
+[INFO] 16-08-2025 17:41:47 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case checkoutStepOneTC passed
+[INFO] 16-08-2025 17:41:47 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepOneTC successed
+[INFO] 16-08-2025 17:41:48 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:48 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:33)] - null
+[INFO] 16-08-2025 17:41:50 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:35)] - Edge driver is opened
+[INFO] 16-08-2025 17:41:51 [main] [Tests.TC05_OverviewTest.setup(TC05_OverviewTest.java:37)] - Page is redirected to the URL
+[INFO] 16-08-2025 17:41:51 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:51 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkoutStepTwoTC started
+[INFO] 16-08-2025 17:41:52 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:30)] - Number of all products 6
+[INFO] 16-08-2025 17:41:53 [main] [Tests.TC05_OverviewTest.checkoutStepTwoTC(TC05_OverviewTest.java:57)] - fTest-2025-08-16-05-40-30PM lTest-2025-08-16-05-40-30PM 62328
+[INFO] 16-08-2025 17:41:53 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case checkoutStepTwoTC passed
+[INFO] 16-08-2025 17:41:53 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkoutStepTwoTC successed
+[INFO] 16-08-2025 17:41:54 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 17:41:54 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:33)] - null
+[INFO] 16-08-2025 17:41:55 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:35)] - Edge driver is opened
+[INFO] 16-08-2025 17:41:57 [main] [Tests.TC06_FinishingOrderTest.setup(TC06_FinishingOrderTest.java:37)] - Page is redirected to the URL
+[INFO] 16-08-2025 17:41:57 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 17:41:57 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case finishOrderTC started
+[INFO] 16-08-2025 17:41:58 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:30)] - Number of all products 6
+[INFO] 16-08-2025 17:41:59 [main] [Tests.TC06_FinishingOrderTest.finishOrderTC(TC06_FinishingOrderTest.java:57)] - fTest-2025-08-16-05-40-30PM lTest-2025-08-16-05-40-30PM 82082
+[INFO] 16-08-2025 17:41:59 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case finishOrderTC passed
+[INFO] 16-08-2025 17:41:59 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case finishOrderTC successed
+[INFO] 16-08-2025 17:42:00 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

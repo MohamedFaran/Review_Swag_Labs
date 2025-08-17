@@ -1,0 +1,7 @@
+[INFO] 11-08-2025 17:45:03 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 11-08-2025 17:45:07 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:28)] - driver is setup
+[INFO] 11-08-2025 17:45:08 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:30)] - redirected to the login page
+[INFO] 11-08-2025 17:45:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 11-08-2025 17:45:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTC started
+[INFO] 11-08-2025 17:45:09 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:25)] - Test Case validLoginTC failed
+[INFO] 11-08-2025 17:45:10 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

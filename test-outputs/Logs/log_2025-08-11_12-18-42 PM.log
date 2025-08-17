@@ -1,0 +1,15 @@
+[INFO] 11-08-2025 12:18:42 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 11-08-2025 12:18:46 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:27)] - driver is setup
+[INFO] 11-08-2025 12:19:08 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:29)] - redirected to the login page
+[INFO] 11-08-2025 12:19:08 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 11-08-2025 12:19:09 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRedirectiontoCartPage started
+[INFO] 11-08-2025 12:19:09 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 3
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 5
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P03_cartPage.pricesOfSelectedProducts(P03_cartPage.java:26)] - Price of selected product 2: $15.99
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P03_cartPage.pricesOfSelectedProducts(P03_cartPage.java:26)] - Price of selected product 3: $7.99
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P02_landingPage.pricesOfSelectedProductsLanding(P02_landingPage.java:88)] - Price of selected product 2: $15.99
+[INFO] 11-08-2025 12:19:10 [main] [Pages.P02_landingPage.pricesOfSelectedProductsLanding(P02_landingPage.java:88)] - Price of selected product 3: $7.99
+[INFO] 11-08-2025 12:19:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRedirectiontoCartPage passed
+[INFO] 11-08-2025 12:19:11 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRedirectiontoCartPage successed
+[INFO] 11-08-2025 12:19:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

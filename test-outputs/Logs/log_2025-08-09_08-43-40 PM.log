@@ -1,0 +1,9 @@
+[INFO] 09-08-2025 20:43:40 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 09-08-2025 20:43:46 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:25)] - driver is setup
+[INFO] 09-08-2025 20:43:48 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:27)] - redirected to the login page
+[INFO] 09-08-2025 20:43:48 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 09-08-2025 20:43:48 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertNumberofselrctedItemswithNumberonCart started
+[INFO] 09-08-2025 20:43:49 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:26)] - Number of all products 6
+[INFO] 09-08-2025 20:43:49 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertNumberofselrctedItemswithNumberonCart passed
+[INFO] 09-08-2025 20:43:49 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertNumberofselrctedItemswithNumberonCart successed
+[INFO] 09-08-2025 20:43:50 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

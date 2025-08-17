@@ -1,0 +1,29 @@
+[INFO] 16-08-2025 01:33:06 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 16-08-2025 01:33:38 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:26)] - driver is setup
+[INFO] 16-08-2025 01:33:40 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:28)] - redirected to the login page
+[INFO] 16-08-2025 01:33:40 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 01:33:40 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 01:33:41 [main] [Pages.P02_landingPage.add_AllProductstoCart(P02_landingPage.java:30)] - Number of all products 6
+[INFO] 16-08-2025 01:33:41 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 01:33:41 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 01:33:42 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 01:33:44 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:26)] - driver is setup
+[INFO] 16-08-2025 01:33:46 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:28)] - redirected to the login page
+[INFO] 16-08-2025 01:33:46 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 01:33:46 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart started
+[INFO] 16-08-2025 01:33:46 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 16-08-2025 01:33:47 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 3
+[INFO] 16-08-2025 01:33:47 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 6
+[INFO] 16-08-2025 01:33:47 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart passed
+[INFO] 16-08-2025 01:33:47 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRandomNumberofselrctedItemswithNumberonCart successed
+[INFO] 16-08-2025 01:33:47 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 16-08-2025 01:33:49 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:26)] - driver is setup
+[INFO] 16-08-2025 01:33:51 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:28)] - redirected to the login page
+[INFO] 16-08-2025 01:33:51 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 16-08-2025 01:33:51 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case assertRedirectiontoCartPage started
+[INFO] 16-08-2025 01:33:51 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 2
+[INFO] 16-08-2025 01:33:51 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 4
+[INFO] 16-08-2025 01:33:52 [main] [Pages.P02_landingPage.addRandomProducts(P02_landingPage.java:62)] - Random number: 6
+[INFO] 16-08-2025 01:33:52 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case assertRedirectiontoCartPage passed
+[INFO] 16-08-2025 01:33:52 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case assertRedirectiontoCartPage successed
+[INFO] 16-08-2025 01:33:52 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed

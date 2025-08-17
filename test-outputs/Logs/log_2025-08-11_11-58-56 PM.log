@@ -1,0 +1,13 @@
+[INFO] 11-08-2025 23:58:57 [main] [Listeners.IInvokedMethodListenerClass.onExecutionStart(IInvokedMethodListenerClass.java:45)] - Test execution started
+[INFO] 11-08-2025 23:59:02 [main] [Tests.TC01_loginTest.loginUsingCookies(TC01_loginTest.java:29)] - driver is setup
+[INFO] 11-08-2025 23:59:04 [main] [Tests.TC01_loginTest.loginUsingCookies(TC01_loginTest.java:31)] - redirected to the login page
+[INFO] 11-08-2025 23:59:05 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case loginUsingCookies passed
+[INFO] 11-08-2025 23:59:08 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:44)] - driver is setup
+[INFO] 11-08-2025 23:59:10 [main] [Tests.TC01_loginTest.setup(TC01_loginTest.java:46)] - redirected to the login page
+[INFO] 11-08-2025 23:59:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case setup passed
+[INFO] 11-08-2025 23:59:11 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case validLoginTCUsingCookies started
+[INFO] 11-08-2025 23:59:11 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case validLoginTCUsingCookies passed
+[INFO] 11-08-2025 23:59:11 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case validLoginTCUsingCookies successed
+[INFO] 11-08-2025 23:59:12 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case quit passed
+[INFO] 11-08-2025 23:59:12 [main] [Tests.TC01_loginTest.clearCookies(TC01_loginTest.java:88)] - Cookies cleared after test execution
+[INFO] 11-08-2025 23:59:12 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:29)] - Test Case clearCookies passed
