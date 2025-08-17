@@ -90,7 +90,7 @@ public class P02_landingPage {
                 Utility.getText(driver, pricesOfSelectedProductsLoctor);
                 totalPrice += Float.parseFloat(Utility.getText(driver, priceLocator).replace("$", ""));
 
-                System.out.println("change for git");
+//                System.out.println("change for git");
             }
             return String.valueOf(totalPrice);
 
