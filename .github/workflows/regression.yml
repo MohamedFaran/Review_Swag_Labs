@@ -1,0 +1,72 @@
+-name: Regression Tests Workflow
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  shchedule:
+    - cron: '0 0 * * *'  # Every day at midnight
+  workflow_dispatch:
+env:
+
+  Target: '%regex[.*Test.*],Tests.**.**,Tests.**'
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu' # See 'Supported distributions' for available options
+          java-version: '21'
+
+      - name: Set up Maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.11
+
+      - name: run Tests
+        run: mvn -Dtest=${Target} test
+
+      - name: upload Artifact
+        uses:
+
+
+
+
+
+
+
+
+
+
+
+
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v2
+#
+#      - name: Set up Python
+#        uses: actions/setup-python@v2
+#        with:
+#          python-version: '3.8'
+#
+#      - name: Install dependencies
+#        run: |
+#          python -m pip install --upgrade pip
+#          pip install -r requirements.txt
+#
+#      - name: Run regression tests
+#        run: |
+#          pytest tests/regression --junitxml=reports/regression.xml
+#
+#      - name: Upload test results
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: regression-test-results
