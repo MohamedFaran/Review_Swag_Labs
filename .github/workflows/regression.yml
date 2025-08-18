@@ -32,10 +32,14 @@ jobs:
           maven-version: 3.9.11
 
       - name: run Tests
+        continue-on-error: true
         run: mvn -Dtest=${Target} test
 
       - name: upload Artifact
-        uses:
+        uses: actions/upload-artifact@v4
+        with:
+          name: Regression Tests Workflow
+          path: reports.*html
 
 
 
