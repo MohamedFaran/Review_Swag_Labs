@@ -1,4 +1,4 @@
--name: Regression Tests Workflow
+name: Regression Tests Workflow
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
     branches:
       - master
   shchedule:
-    - cron: '0 0 * * *'  # Every day at midnight
+    - cron: "* * * * *"
   workflow_dispatch:
 env:
 
