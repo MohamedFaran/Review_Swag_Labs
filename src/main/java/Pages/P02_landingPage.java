@@ -89,7 +89,7 @@ public class P02_landingPage {
                 By priceLocator = By.xpath("(//button[.='Remove']//preceding::div[@class='inventory_item_price'])[" + i + "]");
                 Utility.getText(driver, pricesOfSelectedProductsLoctor);
                 totalPrice += Float.parseFloat(Utility.getText(driver, priceLocator).replace("$", ""));
-                System.out.println("Testing");
+//                System.out.println("Testing");
             }
             return String.valueOf(totalPrice);
 
