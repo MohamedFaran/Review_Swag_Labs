@@ -25,7 +25,6 @@ jobs:
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
           java-version: '21'
-      - run: java HelloWorldApp.java
 
       - name: Set up Maven
         uses: stCarolas/setup-maven@v5
