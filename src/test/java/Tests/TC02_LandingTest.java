@@ -26,7 +26,7 @@ public class TC02_LandingTest {
     @BeforeMethod
     public void setup() throws IOException {
         String browser = System.getProperty("browser") != null ? System.getProperty("browser") : DataUtils.getPropertyValue("environment", "Browser");
-        setupDriver(browser);
+        createDriverHeadless(browser);
         LogsUtils.info("driver is setup");// This is a placeholder for the setup method.
         getDriver().get(DataUtils.getPropertyValue("environment", "BASE_URL"));
         LogsUtils.info("redirected to the login page");// You can initialize your test environment here.
