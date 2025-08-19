@@ -49,7 +49,6 @@ public class TC01_loginTest {
         getDriver().get(DataUtils.getPropertyValue("environment", "HOME_URL"));
 
         getDriver().navigate().refresh();
-        System.out.println("hh");
     }
 
 
