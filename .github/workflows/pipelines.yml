@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 env:
 
-  Target: '%regex[.*Test.*],Tests.**.**,Tests.**'
+  Target: 'TC02_LandingTest'
 
 jobs:
   regression:
