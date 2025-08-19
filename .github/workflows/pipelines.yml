@@ -21,14 +21,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
-          java-version: '21'
+          java-version: '22'
 
       - name: Set up Maven
-        uses: stCarolas/setup-maven@v5
+        uses: actions/cashe@v3
         with:
           maven-version: 3.9.11
       #      - name: Set up JDK 21
@@ -45,7 +46,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Regression Tests Workflow
-          path: "test-outputs/target/surefire-reports/Surefire suite.*html"
+          path: "test-outputs/target/allure-results"
 
 
 
