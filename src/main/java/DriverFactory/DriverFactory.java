@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class DriverFactory {
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
@@ -25,6 +24,8 @@ public class DriverFactory {
                 // 2. Optionally disable popups/infobars
                 chromeOptions.addArguments("--disable-popup-blocking");
                 chromeOptions.addArguments("--disable-infobars");
+                chromeOptions.addArguments("--headless=new");
+
 
                 // Start browser with options
                 driverThreadLocal.set(new ChromeDriver(chromeOptions));
@@ -37,6 +38,8 @@ public class DriverFactory {
                 options.addArguments("--start-maximized");
                 // 1. Disable pop-up notifications
                 options.addArguments("--disable-notifications");
+                options.addArguments("--headless=new");
+
 
                 // 2. Optionally disable popups/infobars
                 options.addArguments("--disable-popup-blocking");
@@ -57,25 +60,25 @@ public class DriverFactory {
         getDriver().quit();
         driverThreadLocal.remove();
     }
-
-    public static WebDriver createDriverHeadless(String driverType) {
-        return switch (driverType.toLowerCase()) {
-            case "chrome" -> {
-                ChromeOptions chromeOptions = new ChromeOptions();
-                chromeOptions.addArguments("--headless=new");
-                yield new ChromeDriver(chromeOptions);
-            }
-            case "firefox" -> {
-                FirefoxOptions firefoxOptions = new FirefoxOptions();
-                firefoxOptions.addArguments("--headless");
-                yield new FirefoxDriver(firefoxOptions);
-            }
-            case "edge" -> {
-                EdgeOptions edgeOptions = new EdgeOptions();
-                edgeOptions.addArguments("--headless=new");
-                yield new EdgeDriver(edgeOptions);
-            }
-            default -> throw new IllegalArgumentException("Invalid driver type: " + driverType);
-        };
-    }
+// ة عشان    headless modeداتا جوجل خاص
+//    public static WebDriver createDriverHeadless(String driverType) {
+//        return switch (driverType.toLowerCase()) {
+//            case "chrome" -> {
+//                ChromeOptions chromeOptions = new ChromeOptions();
+//                chromeOptions.addArguments("--headless=new");
+//                yield new ChromeDriver(chromeOptions);
+//            }
+//            case "firefox" -> {
+//                FirefoxOptions firefoxOptions = new FirefoxOptions();
+//                firefoxOptions.addArguments("--headless");
+//                yield new FirefoxDriver(firefoxOptions);
+//            }
+//            case "edge" -> {
+//                EdgeOptions edgeOptions = new EdgeOptions();
+//                edgeOptions.addArguments("--headless=new");
+//                yield new EdgeDriver(edgeOptions);
+//            }
+//            default -> throw new IllegalArgumentException("Invalid driver type: " + driverType);
+//        };
+//    }
 }
